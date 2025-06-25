@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+nav {
+    background-color: #0d2436;
+}
+
+.nav-item {
+    color: #2d3250;
+    text-decoration: none;
+    font-size: 1.1rem;
+    position: relative;
+    transition: color 0.3s ease;
+    margin: 0 0.8rem;
+}
+
+.nav-item:hover {
+    color: #2d3250;
+    font-weight: bold;
+}
+
+.nav-item::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #2d3250;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.nav-item:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.button {
+    border-width: 2px;
+    font-family: 'Caveat', cursive;
+    border-radius: 10px;
+    padding: 9px;
+    width: 150px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.width {
+    width: auto;
+}
+
+.banner-section-bg-container {
+    background-image: url("https://leavenlicense.com/assets/uploads/media-uploader/pune-city-31628703864.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 130vh;
+    width: 100vw;
+    position: relative;
+    z-index: -1;
+
+}
+
+.banner-heading {
+    color: #ff6e7f;
+    font-family: "roboto";
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.banner-caption {
+    color: white;
+    font-family: "roboto";
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.cont {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: auto;
+    padding: 20px;
+    margin-top: 350px;
+
+}
+
+.but {
+    background: linear-gradient(90deg, #f9b17a, #ff6e7f);
+    color: #2d3250;
+    padding: 0.5rem;
+    width: auto;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.fav-place-bg-img {
+    background-image: url("https://wallpaperaccess.com/full/125081.jpg");
+    height: 130vh;
+    width: 100vw;
+    background-size: cover
+}
+
+.title {
+    color: white;
+    font-size: 40px;
+    font-family: "Times New Roman";
+    font-weight: bold;
+    padding: 9px;
+    text-align: center;
+
+}
+
+.one-place {
+    background-color: white;
+    border-radius: 8px;
+    padding: 12px;
+    margin-left: -5px;
+    border: solid;
+    border-color: black;
+}
+
+.place-head {
+    color: #0f0e46;
+    font-family: "Caveat";
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.place-para {
+    font-size: 17px;
+    color: #6c6b70;
+    font-family: "roboto";
+
+}
+
+.img {
+    height: 200px;
+    width: 215px;
+}
+
+.save {
+    font-size: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: auto;
+}
+
+.sign {
+    font-size: 25px;
+    color: white;
+    font-family: "Times New Roman";
+}
+
+.sin {
+    font-size: 35px;
+    color: white;
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+}
+
+.log {
+    border-width: 2px;
+    font-family: 'Caveat', cursive;
+    border-radius: 10px;
+    padding: 9px;
+    width: 210px;
+    color: black;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.carousel-container {
+    position: relative;
+    padding: 60px 40px;
+    overflow: hidden;
+    background: linear-gradient(to right, #f9f9f9, #fff);
+    height: 480px;
+    z-index: 10;
+    margin-bottom: 100px;
+}
+
+.carousel-heading {
+    font-size: 27px;
+    color: black;
+    font-family: "Times New Roman";
+    font-weight: bold;
+    padding: 9px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.carousel-track {
+    display: flex;
+    gap: 30px;
+    transition: transform 0.6s ease-in-out;
+}
+
+.carousel-item-custom {
+    min-width: 280px;
+    height: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    position: relative;
+    flex-shrink: 0;
+    transition: transform 0.3s;
+}
+
+.carousel-item-custom:hover {
+    transform: scale(1.05);
+}
+
+.carousel-item-custom img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(80%);
+    transition: 0.3s ease;
+}
+
+.carousel-item-custom:hover img {
+    filter: brightness(100%);
+}
+
+.carousel-number {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: #fff;
+    color: #333;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 10px 14px;
+    font-size: 18px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-content {
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #fff;
+    border: none;
+    font-size: 28px;
+    padding: 12px 16px;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    transition: background 0.3s;
+    z-index: 20;
+}
+
+.arrow:hover {
+    background: #f0f0f0;
+}
+
+.arrow.left {
+    left: 10px;
+}
+
+.arrow.right {
+    right: 10px;
+}
+
+@media (max-width: 768px) {
+    .carousel-item-custom {
+        min-width: 220px;
+        height: 300px;
+    }
+
+    .carousel-content {
+        font-size: 16px;
+    }
+}
+
+
+.footer-section {
+    background-color: #0d2436;
+}
+
+.footer-section-mail-id {
+    color: #959ead;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.footer-section-address {
+    color: #959ead;
+    font-family: "Roboto";
+    font-size: 14px;
+}
